@@ -6,18 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://Vampires1124.github.io">
-  <title>Archives: 2018 | Vampire&#39;s Blog</title>
+  <title>GitHub+Hexo 搭建教程及踩过的坑 | Vampire&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="蜗牛，起码也是一头牛">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Vampire&#39;s Blog">
-<meta property="og:url" content="https://Vampires1124.github.io/archives/2018/index.html">
+  <meta name="description" content="出于对自己搭建博客的好奇，这两天就自己亲自操作一遍。网络上各种教程，但很多都是有从业经验的人写的，对于入门的小白就有各种门槛，一出错，不知道怎么解决，网上一顿乱搜，还是没解决，就搁置了，这个是很多小白半路放弃的原因。自己在搭建过程中也有想放弃的想法，后来想想都搞了这么久了，半途而废不好。好了，先扔一个超级基础的教程，我也是根据这个教程一步一步来，少走了很多弯路，但还是碰到一点坑，该篇博客主要是针对">
+<meta name="keywords" content="GitHub,Hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GitHub+Hexo 搭建教程及踩过的坑">
+<meta property="og:url" content="https://Vampires1124.github.io/2018/09/28/GitHub-Hexo-搭建教程及踩过的坑/index.html">
 <meta property="og:site_name" content="Vampire&#39;s Blog">
-<meta property="og:description" content="蜗牛，起码也是一头牛">
+<meta property="og:description" content="出于对自己搭建博客的好奇，这两天就自己亲自操作一遍。网络上各种教程，但很多都是有从业经验的人写的，对于入门的小白就有各种门槛，一出错，不知道怎么解决，网上一顿乱搜，还是没解决，就搁置了，这个是很多小白半路放弃的原因。自己在搭建过程中也有想放弃的想法，后来想想都搞了这么久了，半途而废不好。好了，先扔一个超级基础的教程，我也是根据这个教程一步一步来，少走了很多弯路，但还是碰到一点坑，该篇博客主要是针对">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-09-28T06:20:02.287Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vampire&#39;s Blog">
-<meta name="twitter:description" content="蜗牛，起码也是一头牛">
+<meta name="twitter:title" content="GitHub+Hexo 搭建教程及踩过的坑">
+<meta name="twitter:description" content="出于对自己搭建博客的好奇，这两天就自己亲自操作一遍。网络上各种教程，但很多都是有从业经验的人写的，对于入门的小白就有各种门槛，一出错，不知道怎么解决，网上一顿乱搜，还是没解决，就搁置了，这个是很多小白半路放弃的原因。自己在搭建过程中也有想放弃的想法，后来想想都搞了这么久了，半途而废不好。好了，先扔一个超级基础的教程，我也是根据这个教程一步一步来，少走了很多弯路，但还是碰到一点坑，该篇博客主要是针对">
   
     <link rel="alternative" href="/atom.xml" title="Vampire&#39;s Blog" type="application/atom+xml">
   
@@ -157,36 +159,82 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-GitHub-Hexo-搭建教程及踩过的坑" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/09/28/GitHub-Hexo-搭建教程及踩过的坑/" class="archive-article-date">
-  	<time datetime="2018-09-28T03:34:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-28</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/09/28/GitHub-Hexo-搭建教程及踩过的坑/">GitHub+Hexo 搭建教程及踩过的坑</a>
+    <h1 class="article-title" itemprop="name">
+      GitHub+Hexo 搭建教程及踩过的坑
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2018/09/28/GitHub-Hexo-搭建教程及踩过的坑/" class="archive-article-date">
+  	<time datetime="2018-09-28T03:34:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>出于对自己搭建博客的好奇，这两天就自己亲自操作一遍。网络上各种教程，但很多都是有从业经验的人写的，对于入门的小白就有各种门槛，一出错，不知道怎么解决，网上一顿乱搜，还是没解决，就搁置了，这个是很多小白半路放弃的原因。自己在搭建过程中也有想放弃的想法，后来想想都搞了这么久了，半途而废不好。好了，先扔一个超级基础的教程，我也是根据这个教程一步一步来，少走了很多弯路，但还是碰到一点坑，该篇博客主要是针对这个基础教程，自己实践过程中自己遇到的坑。</p>
+<p><a href="https://smartbeng.github.io/2017/03/26/blogFinish/" target="_blank" rel="noopener">最适合新手的 GitHub + Hexo 「大话」博客搭建教程</a></p>
+<h5 id="坑1：Git-Shell替换成Git-Bash，直接按照教程安装"><a href="#坑1：Git-Shell替换成Git-Bash，直接按照教程安装" class="headerlink" title="坑1：Git Shell替换成Git Bash，直接按照教程安装"></a>坑1：Git Shell替换成Git Bash，直接按照教程安装</h5><p>由于自己之前安装的是Git Desktop,安装的对应的命令终端是Git Shell，虽然bash是一种shell，但自己对于其中的命令运用的不熟悉，两者的关系也没有深入了解，觉得自己用Git Shell和Git Bash 一样，到后面根据教程，自己搞得晕头转向。自己安装的Git Desktop，通过在Git Shell中命令提示Git Desktop版本太低，想要更新Git Desktop，结果显示不能更新。果断抛弃Git Desktop，按照教程来。</p>
+<h5 id="坑2：添加SSH-Key-到GitHub"><a href="#坑2：添加SSH-Key-到GitHub" class="headerlink" title="坑2：添加SSH Key 到GitHub"></a>坑2：添加SSH Key 到GitHub</h5><p>教程中写的要找到C盘下面的id_rsa.pub文件，自己一开始一直没有生成成功，严格按照教程中来。</p>
+<h5 id="坑3：执行命令-hexo-s"><a href="#坑3：执行命令-hexo-s" class="headerlink" title="坑3：执行命令 hexo s"></a>坑3：执行命令 hexo s</h5><p>在安装完Hexo使用hexo s 启动服务本地预览，先在浏览器中输入localhost:4000，看完了再输入Ctrl+C，自己也是比较糊涂，输入万hexo s，直接Ctrl+C，结果在浏览器中查看localhost:4000，总显示网页无法打开。</p>
+<h5 id="坑4：博客更换主题"><a href="#坑4：博客更换主题" class="headerlink" title="坑4：博客更换主题"></a>坑4：博客更换主题</h5><p>在你的Hexo根目录下的themes文件夹中是一些你下载的主题，根据教程要修改_config.yml中的主题</p>
+<figure class="highlight plain"><figcaption><span>Extensions</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">theme: hexo-theme-yilia</span><br></pre></td></tr></table></figure>
+<p>注意修改的是theme后面的部分，我使用的是hexo-theme-yilia，之前自己修改错了，结果一直没有变过来，默认主题是landscape。</p>
+<p>步骤：</p>
+<ul>
+<li>打开Git Bash,输入cd D:/Administrator/Hexo/themes  （注意前面是我自己安装的Hexo 的根目录，修改为自己的根目录），通过命令切换到themes文件夹内</li>
+<li>然后把需要用的主题从github网站上clone下来 git clone <a href="https://github.com/litten/hexo-theme-yilia.git，克隆下来后，在themes文件夹中可以看到新的主题文件夹hexo-theme-yilia" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git，克隆下来后，在themes文件夹中可以看到新的主题文件夹hexo-theme-yilia</a></li>
+<li>输入hexo s查看即可看到新的界面</li>
+</ul>
+<h5 id="坑5：自己创建MarkDown博客进行上传"><a href="#坑5：自己创建MarkDown博客进行上传" class="headerlink" title="坑5：自己创建MarkDown博客进行上传"></a>坑5：自己创建MarkDown博客进行上传</h5><p>步骤：</p>
+<ul>
+<li>打开Git Bash，输入hexo n “文件名”，在Hexo根目录下的source-&gt;_posts文件夹中即可看到你创建的MarkDown文件</li>
+<li>使用Typora打开MarkDown文件进行编辑你的博客，编辑完后Ctrl+S保存</li>
+<li>Git Bash中输入hexo g生成</li>
+<li>输入hexo s 启动本地服务预览</li>
+<li>输入hexo d 部署到GitHub博客上，稍等一会即可看到博客发布成功</li>
+</ul>
+<h5 id="坑6：自己写新博客往上传的时候一直出错"><a href="#坑6：自己写新博客往上传的时候一直出错" class="headerlink" title="坑6：自己写新博客往上传的时候一直出错"></a>坑6：自己写新博客往上传的时候一直出错</h5><p>新创建MarkDown文件的时候打开之后，光标自动在tags:后面，中间没有空格，在自己添加tags的时候或者不写tags的时候，后面一定要加个空格，否则上传的时候报错</p>
+<h5 id="坑7：-config-yml文件修改的时候出错"><a href="#坑7：-config-yml文件修改的时候出错" class="headerlink" title="坑7：_config.yml文件修改的时候出错"></a>坑7：_config.yml文件修改的时候出错</h5><p>修改该配置文件的时候一定要细心，在它默认的“标头：”后面加内容或者修改内容的时候一定要有一个空格。</p>
+<p>下面分享一个我修改的完整的_config.yml文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><span class="line"># Hexo Configuration</span><br><span class="line">## Docs: https://hexo.io/docs/configuration.html</span><br><span class="line">## Source: https://github.com/hexojs/hexo/</span><br><span class="line"></span><br><span class="line"># Site</span><br><span class="line">title: Vampire&apos;s Blog  #我的</span><br><span class="line">subtitle: &quot;Sword of Damocles&quot;  #我的</span><br><span class="line">description: &quot;蜗牛，起码也是一头牛&quot;  #我的</span><br><span class="line">author: Vampire  #我的</span><br><span class="line">language: zh-Hans</span><br><span class="line">timezone: Asia/Shanghai  #我的</span><br><span class="line"></span><br><span class="line"># URL</span><br><span class="line">## If your site is put in a subdirectory, set url as &apos;http://yoursite.com/child&apos; and root as &apos;/child/&apos;</span><br><span class="line">url: https://Vampires1124.github.io  #我的</span><br><span class="line">root: /</span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">permalink_defaults: </span><br><span class="line"></span><br><span class="line"># Directory</span><br><span class="line">source_dir: source</span><br><span class="line">public_dir: public</span><br><span class="line">tag_dir: tags</span><br><span class="line">archive_dir: archives</span><br><span class="line">category_dir: categories</span><br><span class="line">code_dir: downloads/code</span><br><span class="line">i18n_dir: :lang</span><br><span class="line">skip_render:</span><br><span class="line"></span><br><span class="line"># Writing</span><br><span class="line">new_post_name: :title.md # File name of new posts</span><br><span class="line">default_layout: post</span><br><span class="line">titlecase: false # Transform title into titlecase</span><br><span class="line">external_link: true # Open external links in new tab</span><br><span class="line">filename_case: 0</span><br><span class="line">render_drafts: false</span><br><span class="line">post_asset_folder: true</span><br><span class="line">relative_link: false</span><br><span class="line">future: true</span><br><span class="line">highlight:</span><br><span class="line">  enable: true</span><br><span class="line">  line_number: true</span><br><span class="line">  auto_detect: false</span><br><span class="line">  tab_replace:</span><br><span class="line">  </span><br><span class="line"># Home page setting</span><br><span class="line"># path: Root path for your blogs index page. (default = &apos;&apos;)</span><br><span class="line"># per_page: Posts displayed per page. (0 = disable pagination)</span><br><span class="line"># order_by: Posts order. (Order by date descending by default)</span><br><span class="line">index_generator:</span><br><span class="line">  path: &apos;&apos;</span><br><span class="line">  per_page: 10</span><br><span class="line">  order_by: -date</span><br><span class="line">  </span><br><span class="line"># Category &amp; Tag</span><br><span class="line">default_category: uncategorized</span><br><span class="line">category_map:</span><br><span class="line">tag_map:</span><br><span class="line"></span><br><span class="line"># Date / Time format</span><br><span class="line">## Hexo uses Moment.js to parse and display date</span><br><span class="line">## You can customize the date format as defined in</span><br><span class="line">## http://momentjs.com/docs/#/displaying/format/</span><br><span class="line">date_format: YYYY-MM-DD</span><br><span class="line">time_format: HH:mm:ss</span><br><span class="line"></span><br><span class="line"># Pagination</span><br><span class="line">## Set per_page to 0 to disable pagination</span><br><span class="line">per_page: 10</span><br><span class="line">pagination_dir: page</span><br><span class="line"></span><br><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">theme: hexo-theme-yilia  #我的主题</span><br><span class="line"></span><br><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:Vampires1124/Vampires1124.github.io.git  #我的</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<p>上面标注“#我的”就是我修改过的地方，其他地方没有变动。</p>
+<h5 id="以上就是我实操过程中遇到的一些问题，总结一下。"><a href="#以上就是我实操过程中遇到的一些问题，总结一下。" class="headerlink" title="以上就是我实操过程中遇到的一些问题，总结一下。"></a>以上就是我实操过程中遇到的一些问题，总结一下。</h5>
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -198,198 +246,106 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=https://Vampires1124.github.io/2018/09/28/GitHub-Hexo-搭建教程及踩过的坑/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/09/27/Test4/" class="archive-article-date">
-  	<time datetime="2018-09-27T06:29:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-27</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2018/09/27/Test4/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Test4</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/09/27/Test4/">Test4</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Vampire</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/09/27/Test3/" class="archive-article-date">
-  	<time datetime="2018-09-27T05:01:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-27</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/09/27/Test3/">Test3</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Vampire</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/09/27/Test2/" class="archive-article-date">
-  	<time datetime="2018-09-27T04:17:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-27</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/09/27/Test2/">Test2</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">df</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/09/27/Test1/" class="archive-article-date">
-  	<time datetime="2018-09-27T03:37:07.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-27</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/09/27/Test1/">Test1</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Vampire</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/09/26/hello-world/" class="archive-article-date">
-  	<time datetime="2018-09-26T08:31:40.402Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-26</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/09/26/hello-world/">Hello World</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -412,8 +368,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
